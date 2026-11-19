@@ -2,8 +2,11 @@
 
 ## Design notes
 
-These are the layout decisions behind `entry.png` (the Thursday 19 November 2026
-broadsheet) and the reasoning for each.
+These are the layout decisions behind `entry.png`, the one-page broadsheet that
+compresses the whole world's news of Thursday 19 November 2026 into a single
+sheet, and the reasoning for each. The page carries 38 stories in total - every
+one of them dated to that Thursday, none carried over from Wednesday - arranged
+so the day's breadth reads at a glance without crowding out its biggest events.
 
 - **Cream paper.** The ground is warm newsprint cream rather than digital white
   because the page is arguing, at a glance, that it is a newspaper: one physical
@@ -51,3 +54,15 @@ broadsheet) and the reasoning for each.
   attributes sources with disputed claims attributed rather than asserted. It is
   the page auditing itself, in red, at the bottom, mirroring the red date tab at
   the top.
+
+## Sources
+
+- Reuters
+- AP
+- AFP
+- BBC
+- Bloomberg
+- Kyodo
+- ICJ
+- USGS
+- ONS
