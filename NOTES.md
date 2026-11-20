@@ -2,11 +2,11 @@
 
 ## Design notes
 
-These are the layout decisions behind `entry.png`, the one-page broadsheet that
-compresses the whole world's news of Thursday 19 November 2026 into a single
-sheet, and the reasoning for each. The page carries 38 stories in total - every
-one of them dated to that Thursday, none carried over from Wednesday - arranged
-so the day's breadth reads at a glance without crowding out its biggest events.
+These are the layout decisions behind `entry.png`, the cream one-page edition of
+WORLD NEWS IN ONE DAY for Thursday 19 November 2026, and the reasoning for each.
+The page carries 40 stories from around the world, supported by a stat band and
+region tally, with a date-check footer confirming that the coverage belongs to
+that day's news cycle.
 
 - **Cream paper.** The ground is warm newsprint cream rather than digital white
   because the page is arguing, at a glance, that it is a newspaper: one physical

@@ -1,24 +1,22 @@
 /**
- * entry.png is a cream newsprint broadsheet that compresses the world's news
- * for a single date - Thursday 19 November 2026 - onto one 1024x1024 page.
+ * WORLD NEWS IN ONE DAY is a cream one-page broadsheet for Thursday 19
+ * November 2026, designed to make a full news cycle readable at a glance.
  *
- * The top of the sheet is dominated by a masthead carrying the paper's
- * nameplate, with a red date tab marking the edition day. Just below it, a
- * day-in-numbers strip presents the figures that defined the news cycle:
- * the ICJ's 9-6 vote on Myanmar's genocide finding, Anthropic pricing its
- * IPO at $81bn, the M5.7 earthquake that hit Kumamoto, and the UK's 3.6%
- * inflation reading.
+ * The edition gathers 40 stories from across the world onto a single sheet,
+ * balancing major developments with compact briefs so the page feels broad
+ * without losing a clear editorial hierarchy.
  *
- * From there the page steps down through three tiers of story cards. Three
- * hero cards lead the paper with the Shenzhen three-way summit, the ICJ's
- * Myanmar ruling, and Anthropic's Nasdaq debut. Beneath them run five
- * secondary cards and then seven tertiary cards, each carrying a further
- * story from around the globe.
+ * Its masthead establishes the title and date before the story field begins,
+ * giving the page the character of a printed daily rather than a dashboard.
  *
- * The lower portion of the sheet holds twenty-four evening briefs, each
- * tagged with its region, giving quick-hit coverage across every continent.
- * A date-check footer closes the page, drawing the line between Wednesday's
- * carryover items and events that genuinely belong to this day.
+ * A stat band runs beneath the heading and distills the day's scale into
+ * prominent figures, offering a quick numerical preview of the coverage.
+ *
+ * A region tally provides the geographic frame for the stories and helps the
+ * reader see how the edition's attention is distributed around the globe.
+ *
+ * The date-check footer closes the page by confirming that the stories belong
+ * to Thursday's news cycle, keeping the one-day promise visible end to end.
  */
 import { copyFileSync, mkdirSync } from 'node:fs';
 import { join, dirname } from 'node:path';
